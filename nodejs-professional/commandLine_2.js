@@ -3,6 +3,11 @@
 'use strict';
 
 /**
+ * 当操作系统遇到带有 shebang 的文件时，会自动调用指定的解释器（如 node）并将脚本路径作为参数传递。
+例如，执行 ./hello.js 等价于执行 node /path/to/hello.js。
+ */
+
+/**
  * the command line arguments are stored in the `process.argv` array.
  * which has the following structure:
  * [0] the path of the executable that started the node.js process
